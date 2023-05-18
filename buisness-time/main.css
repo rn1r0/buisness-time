@@ -1,0 +1,98 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/image1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(66, 196, 196);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(202, 60, 238);
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(76, 134, 138);
+}
+
+#hero-content a:hover {
+  background-color: rgb(43, 70, 223);
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0.7deg, rgb(61, 64, 97), rgb(195, 212, 231));
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(209, 130, 27);
+  margin: 24px 0;
+}
+
+#services {
+  display: flex;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.service {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.service p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(26, 3, 112);
+  margin: 20px 0;
+}
+
+.service p1 {
+  text-align: left;
+  font-family: "Raleway";
+  font-size: 18px;
+  color: rgb(214, 101, 167);
+  margin-left: 50px;
+}
+
+.service {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(206, 44, 221);
+  border-radius: 10px;
+  object-fit: cover;
+}
